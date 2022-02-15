@@ -1,3 +1,3 @@
 # Homework Three
 
-https://in-info-web4.informatics.iupui.edu/~chrrike/travel-fly/
+https://in-info-web4.informatics.iupui.edu/~chrrike/travel-fly/S
