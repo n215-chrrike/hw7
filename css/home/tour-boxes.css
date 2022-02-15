@@ -1,0 +1,12 @@
+.travelplan-boxes {
+  background-color: yellow;
+  width: 790px;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+}

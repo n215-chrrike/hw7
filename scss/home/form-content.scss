@@ -1,0 +1,100 @@
+.form-content {
+  max-width: $home-form-width;
+  min-height: 200px;
+  //background-color: red;
+  margin: $center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+
+  .title {
+    font-size: 60px;
+  }
+
+  .top-boxes {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .holder {
+      position: relative;
+      display: flex;
+
+      .long-box {
+        margin-left: 20px;
+        width: 453px;
+      }
+
+      .date-box {
+        margin-left: 20px;
+        width: 698px;
+      }
+
+      p {
+        margin-top: 20px;
+      }
+
+      input {
+        width: 344px;
+        height: 58px;
+        padding-left: 10px;
+        border: 2px solid $site-blue;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+
+      i {
+        position: absolute;
+        margin-left: 750px;
+        margin-top: 20px;
+      }
+    }
+  }
+
+  .dropdown-menus {
+    display: flex;
+    padding-top: 20px;
+    label {
+      margin-right: 20px;
+    }
+    select {
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-size: 18px;
+      width: 103px;
+      height: 58px;
+      margin-right: 120px;
+      border: 2px solid $site-blue;
+    }
+  }
+
+  .message-block {
+    display: block;
+    overflow: hidden;
+    input {
+      width: 818px;
+      height: 192px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      border: 2px solid $site-blue;
+      margin-bottom: 25px;
+      margin-top: 10px;
+      content: wrap;
+    }
+  }
+
+  .button {
+    button {
+      height: 60px;
+      width: 813px;
+      background-color: $site-blue;
+      border: none;
+      border-radius: 15px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      color: white;
+      font-size: 15px;
+      margin-bottom: 50px;
+    }
+  }
+}
