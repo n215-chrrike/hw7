@@ -1,5 +1,5 @@
 nav {
-  width: $site-width;
+  width: 100%;
   height: 80px;
   //background-color: $site-black;
   margin: 0 auto;
@@ -12,6 +12,7 @@ nav {
   .logo {
     width: 92px;
     height: 42px;
+    margin-left: 3%;
     //background-color: blueviolet;
   }
   .links {
@@ -25,5 +26,11 @@ nav {
       color: $site-white;
       margin: 0 20px;
     }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  nav {
+    //background-color: blue;
   }
 }

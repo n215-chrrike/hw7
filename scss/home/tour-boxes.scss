@@ -78,3 +78,25 @@
       sans-serif;
   }
 }
+
+@media screen and (max-width: 800px) {
+  .tour-boxes {
+    width: 100%;
+    flex-direction: column;
+    height: 925px;
+    margin: 0 auto;
+    align-items: center;
+    .plan-one {
+      margin-top: 0px;
+      width: 100%;
+    }
+    .plan-two {
+      margin-top: 0px;
+      width: 100%;
+    }
+    .plan-three {
+      margin-top: 0px;
+      width: 100%;
+    }
+  }
+}

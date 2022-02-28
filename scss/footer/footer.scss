@@ -1,6 +1,6 @@
 .footer {
   background-color: $site-blue;
-  width: $banner-footer-width;
+  width: 100%;
   height: 100px;
   display: flex;
   margin: $center;
@@ -22,5 +22,24 @@
     font-size: 30px;
     color: white;
     margin-right: 50px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .footer {
+    flex-direction: column;
+    height: 200px;
+    .logo {
+      margin: 0 auto;
+      padding-left: 0;
+      padding-top: 40px;
+    }
+    .copyright {
+      margin: 0 auto;
+    }
+    .logos {
+      margin: 0 auto;
+      padding-bottom: 50px;
+    }
   }
 }

@@ -1,0 +1,26 @@
+{
+  "name": "travel-fly",
+  "version": "1.0.0",
+  "description": "Web4 link to hw assignment:\r https://in-info-web4.informatics.iupui.edu/~chrrike/travel-fly/S",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "compile:sass": "sass scss/styles.scss css/styles.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n215-chrrike/homework-three.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/n215-chrrike/homework-three/issues"
+  },
+  "homepage": "https://github.com/n215-chrrike/homework-three#readme",
+  "devDependencies": {
+    "sass": "^1.49.9"
+  }
+}
