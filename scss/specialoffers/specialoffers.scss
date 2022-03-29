@@ -1,0 +1,71 @@
+.offers-title{
+    margin-left: 160px;
+    border-bottom: solid black 2px;
+    width: fit-content;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    h2{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: lighter;
+        font-size: 30px;
+    }
+}
+
+.special-offer-box{
+    width: 500px;
+    height: 287px;
+    //background-color: aqua;
+    margin-left: 160px;
+    margin-bottom: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    .offer-img{
+        img{
+            width: 199px;
+            height: 287px;
+            object-fit: cover;
+        }
+    }   
+
+    .offer-title{
+        h2{
+            height: 30px;
+            text-decoration: underline;
+            margin-left: 220px;
+            margin-top: -55%;
+            font-size: 30px;
+            width: 300px;
+        }
+    }
+
+    .discount-percent{
+        color: orange;
+        margin-left: 105%;
+        width: 100px;
+        margin-top: -7.5%;
+    }
+
+    .offer-text{
+        width: 290px;
+        height: 131px;
+        margin-left: 220px;
+    }
+
+    .offer-learnmore{
+        background-color: $site-blue;
+        width: 133px;
+        height: 40px;
+        margin-left: 60%;
+        margin-top: 50px;
+        font-size: 15px;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 50px;
+        a {
+          color: $site-white;
+          text-decoration: none;
+          font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+            sans-serif;
+        }
+    }
+}

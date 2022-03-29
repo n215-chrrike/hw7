@@ -1,6 +1,8 @@
-# Homework Five
+# Homework Seven
 
 Web4 link to hw assignment:
-https://in-info-web4.informatics.iupui.edu/~chrrike/hw5/
+https://in-info-web4.informatics.iupui.edu/~chrrike/hw7/
 
-This assignment focused on the about page of the travel-fly website. It involved reusing code as possible and keeping the scss folder organized. The site also had to be mobile responsive and link to the home page through the nav.
+This assignment was focused on the special offers, blog, and contact page
+of the travel-fly website. It involved making a form and styling it
+on the contact page. Special offers and the blog both shared the same elements so that the code for styling could be reused.
